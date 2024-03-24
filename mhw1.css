@@ -1,0 +1,843 @@
+:root{
+	--colore-sfondo: #f5f5f5;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Selection1*/
+.img-nav-1{
+    height: 20px;
+}
+
+#navbar1{
+    display: flex;
+    background-color:var(--colore-sfondo); 
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#navbar1-Dx a{ 
+    text-decoration: none; 
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+
+.padding{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+/*Section2 - Navbar-Desktop*/
+#navbar2 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+
+#Nike{
+    height: 25px;
+}
+
+.img {
+    height: 20px;  
+    margin-left: 20px
+}
+
+
+#navbar2-Sx {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+}
+
+
+#navbar2-C {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+
+#navbar2-C a{ 
+    text-decoration: none; 
+    color: black;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+#navbar2-C a:hover{
+    text-decoration: underline;
+    text-underline-offset: 1.5rem;
+}
+
+
+#navbar2-Dx-desktop{
+    display: flex;
+    justify-content: right;
+    width: 35%; 
+    align-items: center; 
+}
+
+#boxRicerca {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--colore-sfondo);
+    
+}
+
+#ricercaDx {
+    height: 60%;
+    width: 70%;
+    border: 0;
+    background-color: var(--colore-sfondo);
+
+}
+
+
+/*nav mobile*/
+
+#nav-mobile {
+    display:none;
+    justify-content: space-between;
+}
+
+#menu-mobile{
+    display: flex;
+    height: 50px;
+    width: 100%; 
+    position:relative;
+    
+}
+
+#navbar2-menù-mobile{
+    position:absolute;
+    top: 20px;
+    right:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15px;
+    width: 20px;
+}
+
+#navbar2-menù-mobile span{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+#logo-sito{
+    position:absolute;
+    top:35%;
+    left:20px;
+    display:flex;
+    justify-content: space-between;
+    height: 15px;
+    width: 20px;
+}
+
+#logo-sito{
+    position:absolute;
+    top: 12px;
+    left:20px;
+}
+#mobile-nav #website-logo img{
+    height: 55px;
+}
+
+#mobile-nav #navbar2-Dx .img {
+    height: 20px;  
+    margin-right: 20px
+}
+
+
+#navbar2-Dx {
+    display: flex;
+    justify-content: right;
+    width: 35%;
+    align-items: center;
+    padding-right: 65px;
+    padding-top: 8px;
+}
+
+
+/*Video*/
+#video-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+/*Container1*/
+#container1{
+    background-color: var(--colore-sfondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#container1 h3{
+    margin: 0px;
+    font-weight: 200;
+  
+}
+
+#container1 h5{
+    margin: 0px;
+}
+#container1 a{
+    color: black;
+    font-weight: 200;
+}
+
+
+/*Container-Novità*/
+#Novità{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+#Novità h1{
+    font-family: "Jost", sans-serif;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: -3px;
+    line-height: 1;
+
+}
+
+#Novità h5{
+    margin-top: 50px;
+    margin-bottom: 1px;
+    font-weight: 300;
+    font-size:medium;
+}
+
+#Novità h3{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight:400;
+}
+
+#Novità a{
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Scorrimento Up-Dx*/
+.scorrimento{
+    height: 50px;  
+    margin-left: 1px;
+}
+
+
+
+/*Container migliori novità*/
+.Container-Multiplo{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    font-weight: 300;
+    font-size: large;
+    font-size: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.BoxEsterno {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.BoxInternoGenerale{
+    position: relative;
+    width: 32%; 
+}
+ 
+.BoxInternoGenerale img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+  
+.BoxInternoGenerale p {
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: 24px;
+    
+}
+
+.BoxInternoGenerale a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Container Catalogo*/
+#Trend p{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.BoxInterno2 {
+    width: 32%; 
+    text-align: left;
+
+}
+  
+.BoxInterno2 img {
+    width: 100%;
+}
+  
+.BoxInterno2 p {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500; 
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.BoxInterno2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.font-Grey{
+    color: grey;
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+/*Bottone in basso a sinistra nelle foto generale*/
+.button{
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: absolute;
+
+}
+.button:hover{
+    background-color: rgb(176, 176, 176);
+}
+
+
+/*Container Sport*/
+
+#Container-Sport  .BoxEsterno .BoxInternoGenerale .button{
+    top: 60%; 
+    left: 6%;
+
+}
+
+
+
+/* Scorrimento Container Icone-Nike*/
+.scorrimento-Sx{
+    height: 40px;  
+    margin-left: 5px;
+    align-items: center;
+    position: absolute;
+    margin-top: 8.5%;
+    z-index: 1;
+}
+
+.scorrimento-Dx{
+    height: 40px;  
+    right:8px;
+    align-items: center;
+    position: absolute;
+    margin-top: 8.5%;
+}
+
+.nome-scarpa {
+    position: absolute;
+    top: 74%;
+    left: 45%;
+    text-align: center;
+}
+
+.nome-scarpa p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/*Container Genere*/
+
+#scopri{
+    font-weight: 300;
+    font-size: large;
+    font-size: 30px;
+    
+}
+
+#Container-Genere .BoxEsterno .BoxInternoGenerale .button{
+    top: 75%; 
+    left: 7%;
+}
+
+#Container-Genere .BoxEsterno .BoxInternoGenerale .button2{
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: absolute;
+    top: 75%; 
+    left: 22%;
+}
+
+#Container-Genere .BoxEsterno .BoxInternoGenerale .button2:hover{
+    background-color: rgb(176, 176, 176);
+}
+
+
+
+/*Container Membership*/
+
+#Membership-Container .BoxEsterno .BoxInternoGenerale .button{
+    top: 70%; 
+    left: 6%;
+}
+
+#Membership-Container .BoxEsterno .BoxInternoGenerale .button:hover{
+    background-color: rgb(176, 176, 176);
+}
+
+.Box8-desc p{
+    display: flex;
+    color: white;
+    margin: 10px;
+    position: absolute; 
+    justify-content: left;
+    align-items: left;
+    font-size: 18px; 
+    top: 55%; 
+    left: 6%;
+}
+
+.Box8-desc span{    
+    display: flex;
+    color: white;
+    margin: 10px;
+    position: absolute; 
+    justify-content: left;
+    align-items: left;
+    font-size: 25px; 
+    top: 60%; 
+    left: 6%;
+}
+
+/***** Links box ******/
+#links-box {
+    display: flex;
+    width: 50%;
+    padding-left: 25%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+#links-box a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.dettagli a{
+    color: grey;
+}
+
+
+#links-box a:hover {
+    color: black;
+}
+
+/****FOOTER*****/
+footer{
+    background-color: black;
+}
+
+#footer1 {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative; 
+} 
+
+#footer1-Box-Sx{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-left: 9%;
+}
+
+#footer1 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 20px;  
+}
+
+.white-color{
+    color:white;
+}
+
+.white-color a{
+    color:white;
+}
+
+.colonna-footer-grey a{
+    color: grey;
+}
+
+.colonna-footer-grey a:hover{
+    color: white;
+}
+
+#footer1-Box-Dx:hover{
+    color: white;
+}
+
+.footer1-Social {
+    height: 30px;  
+    margin-left: 15px;
+    position: relative;
+}
+
+#footer1-Box-Dx {
+    display: flex;
+    padding-right: 245px;
+    position: absolute;
+    right: 0;
+}
+
+/****FOOTER2****/
+#footer2 {
+    background-color: black;
+    padding-right: 240px;
+    display: flex;
+}
+
+#footer2 a{ 
+    text-decoration: none; 
+    color: white;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#footer2 p{ 
+    text-decoration: none; 
+    color: grey;
+    padding-left: 20px;
+    text-align: right;
+}
+
+#footer2-Sx {
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 15%;
+}
+
+#icon-position{
+    height: 15px;
+}
+
+#footer2-Dx {
+    width: 70%;
+    text-align: right;
+}
+
+#footer2-Dx a{ 
+    text-decoration: none; 
+    color: grey;
+    padding-left: 20px;
+}
+
+#footer2-Dx a:hover{
+    color: white;
+}
+
+#footer2-Dx-small {
+    margin-bottom: 15px;
+}
+
+/*****   VERSIONE MOBILE 500px   ******/
+@media (max-width: 500px){
+
+    #navbar1 {
+        display: none;
+    }
+    
+    #navbar2 {
+        display: none;
+    }
+    
+    #navbar2-Dx{
+        width: 100%;
+    }
+
+    #nav-mobile {
+        display: flex;
+    }
+    
+    .scorrimento{
+        display: none;
+    }
+       
+    .scorrimento-Dx{
+        display: none;
+    }
+    .scorrimento-Sx{
+         display: none;
+    }
+    
+    #Novità{
+        text-align: center;
+    }
+
+    /*Video*/
+    #video-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    video {
+        width: 300%;
+        height: auto;
+        transform: translate(-40%)
+    }
+
+    .BoxEsterno {
+        overflow-x: scroll;
+        justify-content: unset;
+    }
+
+
+    .BoxInternoGenerale {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .BoxInternoGenerale img {
+        padding-bottom: 20px;
+        width: 400px;
+        
+    }
+
+    .BoxInterno2 {
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .BoxInterno2 img {
+        width: 400px;
+    }
+
+    .nome-scarpa {
+        text-align: left;
+        position: unset;
+        padding-left: 20px;
+        padding-top: 0;
+        margin-top: 0;
+        
+    }
+
+    #Container-Genere .BoxEsterno .BoxInternoGenerale .button2{
+        left: 27%;
+    }
+
+    /****    Links box   ****/
+    #links-box {
+        display: block;
+        padding: 30px;
+    }
+
+    #elenco {
+        position: relative;
+        top: 10px;
+        
+    }
+
+    .dettagli {
+        display: none;
+        align-items: center;
+        text-decoration: none;
+        color: grey;
+        margin-bottom: 20px;
+    }
+
+    #elenco a:hover + .dettagli {
+        display: block;
+    }
+
+    .dettagli a {
+        display: block;
+        padding: 5px 0;
+        text-decoration: none;
+        color: grey;
+    }
+
+    /****   FOOTER 1   ****/
+
+    #footer1 {
+        padding-top: 20px;
+        padding-left: 0;
+        
+    }
+
+    #footer1-Box-Sx {
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+        font-size: 12px;
+        padding-left: 9%;
+        flex-direction: column;
+        font-weight: bold;
+    }
+
+    #footer1-Box-Dx{
+        top:380px;
+        padding-right: 300px;
+    }
+    
+    .colonna-footer{
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .colonna-footer-grey{
+        display: none;
+    }
+
+    /****   FOOTER 2   ****/
+    #footer2 {
+        text-align: left;
+        flex-direction: column;
+        padding-right: 0;
+        align-items: left;
+    }
+
+    #footer2-Sx {
+        display: block;
+        padding: 0;
+        width: 22%;
+        padding-top: 20px;
+        text-align: left;
+    }
+
+    #footer2-Sx p {
+        font-size: 14px;
+        padding-left: 40px;
+        text-align: left;
+    }
+
+    #footer2-Dx {
+        display: flex;
+        width: 100%;
+        text-align: left;
+        flex-direction: column;
+
+    }
+    #footer2-Dx-small {
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+    }
+
+    #footer2 a {
+        padding-left: 40px;
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+}
+
